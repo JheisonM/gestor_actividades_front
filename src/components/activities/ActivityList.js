@@ -1,13 +1,22 @@
 import React from 'react';
+import './ActivityList.css';
 
-function ActivityList({ activities }) {
+const ActivityList = ({ activities, handleDelete }) => {
   return (
-    <ul>
-      {activities.map(activity => (
-        <li key={activity.id}>{activity.title}</li>
+    <ul className="activity-list">
+      {activities.map((activity) => (
+        <li key={activity.id} className="activity-item">
+          <input
+            type="checkbox"
+            id={activity.id}
+            checked={activity.completed}
+          />
+          <label htmlFor={activity.id}>{activity.title}</label>
+          <button onClick={() => handleDelete(activity.id)}>Eliminar</button>
+        </li>
       ))}
     </ul>
   );
-}
+};
 
 export default ActivityList;

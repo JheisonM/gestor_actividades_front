@@ -1,0 +1,36 @@
+.dashboard-container {
+  max-width: 800px; 
+  margin: 100px auto;
+  background: linear-gradient(to bottom, #eff8f8, #5172df);
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.dashboard-title {
+  font-size: 48px; 
+  color: #000000; 
+  letter-spacing: 2px;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px; 
+}
+
+.activity-section {
+  margin-top: 20px; 
+  width: 100%; 
+  max-width: 400px;
+}
+
+.section-title {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,47 @@
+.pomodoro-timer {
+    text-align: center;
+  }
+  
+  .pomodoro-title {
+    font-size: 20px;
+    color: #ffffff;
+  }
+  
+  .pomodoro-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .pomodoro-time {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    color: #fff;
+  }
+  
+  .pomodoro-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .pomodoro-toggle,
+  .pomodoro-reset {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .pomodoro-toggle {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .pomodoro-reset {
+    background-color: #dc8e35;
+    color: #fff;
+  }
+  

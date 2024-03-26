@@ -1,12 +1,12 @@
 import React from 'react';
 
-function ActivityItem({ activity }) {
+const ActivityItem = ({ activity, handleDelete }) => {
   return (
-    <div>
-      <h3>{activity.title}</h3>
-      <p>{activity.description}</p>
-    </div>
+    <li>
+      {activity.title} - {activity.description}{' '}
+      <button onClick={() => handleDelete(activity.id)}>Eliminar</button>
+    </li>
   );
-}
+};
 
 export default ActivityItem;

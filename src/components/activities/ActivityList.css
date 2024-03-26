@@ -1,0 +1,44 @@
+.activity-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.activity-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.activity-item label {
+  margin-left: 10px;
+  flex-grow: 1;
+}
+
+.activity-item button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  font-size: 14px;
+  background-color: #ff6347;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.activity-item button:hover {
+  background-color: #d85030;
+}
+
+.activity-item label {
+  margin-left: 10px;
+  flex-grow: 1;
+  color: white;
+}
+
+.activity-item input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}

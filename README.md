@@ -23,6 +23,34 @@ Esta es una aplicación simple de gestión de actividades construida en React. P
 4. Inicia la aplicación: `npm start`
 5. La aplicación estará disponible en [http://localhost:3000](http://localhost:3000) en tu navegador.
 
+
+En la arquitectura propuesta, las páginas HomePage y DashboardPage se encuentran en la carpeta /pages. Estas páginas representan las vistas principales de la aplicación y son responsables de renderizar el contenido específico de cada página.
+
+## Estructura del proyecto
+
+```
+|-- src
+	|-- components
+	|	|-- auth
+	|	|	|-- Login.js
+	|	|	+-- SignUp.js
+	|	|-- activities
+	|	|	|-- ActivityList.js
+	|	|	|-- ActivityItem.js
+	|	|	+-- ActivityForm.js
+	|	+-- timer
+	|		+-- PomodoroTimer.js
+	|-- pages
+	|	|-- HomePage.js
+	|	+-- DashboardPage.js
+	|-- services
+	|	|-- authService.js
+	|	+-- activityService.js
+	|-- App.js
+	+-- index.js
+
+```
+
 ## Uso
 
 1. Regístrate o inicia sesión en la aplicación.

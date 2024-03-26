@@ -1,0 +1,53 @@
+
+.home-container {
+  text-align: center;
+  margin-top: 100px;
+  background: linear-gradient(to bottom, #302a2a, #142869); 
+  padding: 50px;
+  border-radius: 20px; 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.home-title {
+  font-size: 48px;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  color: #d1d0c5;
+}
+
+.home-description {
+  font-size: 24px;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.home-buttons .button {
+  margin-right: 10px;
+  padding: 15px 30px;
+  background: linear-gradient(to bottom right, #599ce4, #0056b3); 
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.home-buttons .button:hover {
+  background: linear-gradient(to bottom right, #599ce4, #003366); 
+}
+
+.register-link {
+  color: #ffce00;
+  font-weight: bold;
+  font-size: 22px;
+}
